@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/esala/Desktop/mcl51/vhdl/mcl8051/prueba_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="prueba_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/prueba_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_tb/reset_n" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset_n</obj_property>
+      <obj_property name="ObjectShortName">reset_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_tb/speaker" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">speaker</obj_property>
+      <obj_property name="ObjectShortName">speaker</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider5" type="divider">
+      <obj_property name="label">XMEM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_tb/uut/BIU_CORE/eu_register_r3_d1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">eu_register_r3_d1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">eu_register_r3_d1[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_tb/uut/BIU_CORE/eu_biu_dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">eu_biu_dataout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">eu_biu_dataout[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_tb/uut/BIU_CORE/biu_ram_dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">biu_ram_dataout[7:0]</obj_property>
+      <obj_property name="ObjectShortName">biu_ram_dataout[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_tb/uut/BIU_CORE/biu_ram_wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">biu_ram_wr</obj_property>
+      <obj_property name="ObjectShortName">biu_ram_wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_tb/uut/BIU_CORE/biu_sfr_dptr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">biu_sfr_dptr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">biu_sfr_dptr[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/prueba_tb/uut/BIU_CORE/biu_sfr_acc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">biu_sfr_acc[7:0]</obj_property>
+      <obj_property name="ObjectShortName">biu_sfr_acc[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>
